@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivProfile"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <ImageView
+                android:id="@+id/ivAttendnce"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/ivTimetable"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/ivHostel"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivContactUs"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/profile_icon"
+                android:scaleType="fitCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/ivFees"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:id="@+id/ivFaculty"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivGallery"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/profile_icon"
+                android:scaleType="fitCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/ivExams"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:id="@+id/ivPtm"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:id="@+id/ivStatics"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/profile_icon"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/profile_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/profile_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/profile_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/profile_icon"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/profile_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/profile_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/profile_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

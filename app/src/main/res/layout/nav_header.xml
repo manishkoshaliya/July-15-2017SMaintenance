@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:background="@color/blue_text"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/profileicon"
+        android:src="@drawable/profileicon"
+        android:layout_marginTop="@dimen/size30"
+        android:layout_width="@dimen/size100"
+        android:layout_gravity="center"
+        android:layout_height="150dp" />
+    <TextView
+        android:id="@+id/tv_email"
+        android:textColor="@color/textcolorwhite"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:padding="@dimen/size5"
+        android:text="manish@gmail.com"
+        android:paddingBottom="@dimen/size5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

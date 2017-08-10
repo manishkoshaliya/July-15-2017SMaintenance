@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/textcolortoolbar</item>
+        <item name="colorAccent">@color/textcolorblack</item>
+        //custmize color
+        <item name="android:textColor">@color/textcolorblack</item>
+        <item name="android:textColorPrimary">@color/textcolorblack</item>
+        <item name="android:actionMenuTextColor">@color/textcolorblack</item>
+    </style>
+
+    <style name="AppToolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="Layout_Top_GreenBar">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/margin_5</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:background">@drawable/green_bar</item>
+    </style>
+
+
+    <style name="Layout_Top_GreenBar1">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/margin_5</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:background">@drawable/blue_bar</item>
+    </style>
+
+    <style name="Layout_Top_GreenBar2">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/margin_5</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:background">@drawable/green</item>
+    </style>
+
+    <style name="TextHeaderGreenBG" parent="@android:style/TextAppearance">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/margin_5</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+</resources>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:id="@+id/tvVisitedCustomers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size30"
+                    android:background="@drawable/visitednumber"
+                    android:gravity="center"
+                    android:text="50"
+                    android:textColor="@color/textcolorwhite"
+                    android:textSize="@dimen/size12" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="80dp"
+                    android:gravity="center"
+                    android:text="Attendance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+             </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size120"
+                    android:background="@drawable/visitednumber"
+                    android:gravity="center"
+                    android:text="50"
+                    android:textColor="@color/textcolorwhite"
+                    android:textSize="@dimen/size12" />
+
+
+                <TextView
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Performance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/profile_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Bhavna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Register No.-"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="CA54824tR5R"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:gravity="start"
+                android:text="Class- 6th B"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <View
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+    </LinearLayout>
+
+
+
+
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="@color/green_bar"  />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tvAdmisionCharges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Father's Name-"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvAdmissionfee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Mr.Rajendra Singh"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tvSecurityCharges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mother'Name-"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvSecurityChargesValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="Mrs. Daya Kaur"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tvCommonRoom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="DOB-"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvCommomValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Aug-07-2017"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tvElectricity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Contact No:-"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvElecticityValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="+9528992973"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tvRollNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Roll No:-"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvRollNoo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="0145678"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tvEmailID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Email ID:-"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvEmailIDD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="abc@gmail.com"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="#000000" />
+
+
+
+
+    </LinearLayout>
+

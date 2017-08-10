@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight=".1"
+        android:orientation="vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/tvGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_box"
+            android:drawableRight="@drawable/arro2"
+            android:gravity="left"
+            android:hint="Select Group"
+            android:padding="15dp"
+            android:paddingLeft="15dip"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/text_size_very_large" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_box"
+            android:drawableRight="@drawable/arro2"
+            android:gravity="left"
+            android:hint="Select Subject"
+            android:padding="15dp"
+            android:paddingLeft="15dip"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/text_size_very_large" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_box"
+            android:drawableRight="@drawable/arro2"
+            android:gravity="left"
+            android:hint="Select Student"
+            android:padding="15dp"
+            android:paddingLeft="15dip"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/text_size_very_large" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dp">
+
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/chart1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:textSize="@dimen/text_size_very_large"
+            android:background="@color/green_bar"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Average Marks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+</LinearLayout>
