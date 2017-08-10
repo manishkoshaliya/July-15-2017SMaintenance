@@ -43,7 +43,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         ivTimetable.setOnClickListener(this);
         ivHostel.setOnClickListener(this);
 
-        ivContactUs.setOnClickListener(this);
+        ivContactUs.setOnClickListgener(this);
         ivFees.setOnClickListener(this);
         ivFaculty.setOnClickListener(this);
 
