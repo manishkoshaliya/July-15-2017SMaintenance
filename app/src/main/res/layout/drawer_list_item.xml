@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/blue_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/item_icon_imgview"
+        android:layout_width="30dip"
+        android:layout_height="30dip" />
+
+    <TextView
+        android:id="@+id/item_name_txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kadi"
+        android:textColor="@color/textcolorwhite"
+        android:textSize="@dimen/sizesp18"
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/item_icon_imgview"
+        android:layout_toEndOf="@+id/item_icon_imgview" />
+
+        <ImageView
+            android:id="@+id/plus_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dp"
+            android:textColor="#b2866f"
+            android:visibility="visible"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

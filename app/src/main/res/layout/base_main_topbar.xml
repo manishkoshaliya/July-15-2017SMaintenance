@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlCustomerHeaderBase"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin_10"
+    android:visibility="visible">
+
+    <ImageView
+
+        android:id="@+id/ivMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/logo_icon"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/ivMenu"
+        android:background="@drawable/logo_icon" />
+
+    <TextView
+        android:id="@+id/tvBaseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Home"
+        android:textColor="@color/white"
+        android:textSize="@dimen/header_text_size"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <LinearLayout
+
+        android:id="@+id/llBaseRightSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/size10"
+        android:layout_alignTop="@+id/ivAppTitle">
+
+        <ImageView
+            android:id="@+id/ivBaseCheckinTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:src="@drawable/alarm"
+            android:visibility="gone" />
+
+        <Chronometer
+            android:id="@+id/chronometer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/margin_10"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:text="00:00" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/ivBaseRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/refresh_icon"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivBaseNotifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:src="@drawable/notification_icon" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivBaseProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/icon_user" />
+
+        <ImageView
+            android:id="@+id/ivBaseProfileMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+        />
+    </LinearLayout>
+</RelativeLayout>
