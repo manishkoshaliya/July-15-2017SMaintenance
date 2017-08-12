@@ -5,4 +5,22 @@
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
 
+    <string-array name="send_to">
+        <item>Choose destination</item>
+        <item>To a class teacher</item>
+        <item>To a student</item>
+        <item>To a school managment</item>
+    </string-array>
+    <string-array name="class_list">
+        <item>Choose Class</item>
+        <item>Ist</item>
+        <item>2nd</item>
+        <item>3rd</item>
+    </string-array>
+    <string-array name="student_list">
+        <item> Choose Student</item>
+        <item>Ram</item>
+        <item>Shamt</item>
+        <item>Mohan</item>
+    </string-array>
 </resources>

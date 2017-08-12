@@ -11,6 +11,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     private ImageView ivBaseProfile, ivAttendnce, ivTimetable, ivHostel;
     private ImageView ivContactUs, ivFees, ivFaculty;
     private ImageView ivGallery, ivExams, ivPtm, ivStatics;
+    private ImageView mLinkImageView;
 
 
     @Override
@@ -38,6 +39,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         ivPtm = (ImageView) findViewById(R.id.ivPtm);
         ivStatics = (ImageView) findViewById(R.id.ivStatics);
 
+        mLinkImageView=(ImageView)findViewById(R.id.links);
+
         ivBaseProfile.setOnClickListener(this);
         ivAttendnce.setOnClickListener(this);
         ivTimetable.setOnClickListener(this);
@@ -51,7 +54,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         ivExams.setOnClickListener(this);
         ivPtm.setOnClickListener(this);
         ivStatics.setOnClickListener(this);
-
+        mLinkImageView.setOnClickListener(this);
     }
 
     @Override
@@ -89,6 +92,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             startActivity(intent);
         } else if (v.getId() == R.id.ivStatics) {
             intent = new Intent(MainActivity.this, StaticsActivity.class);
+            startActivity(intent);
+        }else if(v.getId()==R.id.links){
+            intent=new Intent(this,LinksActivity.class);
             startActivity(intent);
         }
 
